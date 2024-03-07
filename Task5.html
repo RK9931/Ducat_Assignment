@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retail Job Application</title>
+</head>
+<body>
+  <h2>Retail Job Application</h2>
+  <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="phone">Phone:</label><br>
+      <input type="tel" id="phone" name="phone" required><br>
+      <label for="address">Address:</label><br>
+      <textarea id="address" name="address" rows="4" required></textarea><br>
+    </fieldset>
+    <fieldset>
+      <legend>Work Experience</legend>
+      <label for="previous_job">Previous Job:</label><br>
+      <input type="text" id="previous_job" name="previous_job"><br>
+      <label for="experience_years">Years of Experience:</label><br>
+      <input type="number" id="experience_years" name="experience_years" min="0"><br>
+      <label for="education">Education:</label><br>
+      <input type="text" id="education" name="education"><br>
+    </fieldset>
+    <fieldset>
+      <legend>Availability</legend>
+      <label for="availability">Days and Hours Available:</label><br>
+      <textarea id="availability" name="availability" rows="4"></textarea><br>
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
